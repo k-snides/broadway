@@ -18,17 +18,27 @@ header {
 	background: url('../img/the-flatiron-building.png') no-repeat center center;
 	background-size: cover;
 	color: white;
+	margin: 3em 0 1em 0;
 }
 
 h1 {
 	font-size: 70px;
 	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+nav {
+	flex-direction: column;
 }
 
 nav a {
 	color: white;
 	font-size: 18px;
 	text-decoration: none;
+	margin: 0.5em 0;
+}
+nav a:last-child {
+	margin-bottom: 0;
 }
 
 h2,

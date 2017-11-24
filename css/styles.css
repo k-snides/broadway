@@ -20,6 +20,15 @@ header {
 	color: white;
 	margin: 3em 0 1em 0;
 }
+header nav a {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 0.5em 0;
+}
+nav a:last-child {
+	margin-bottom: 0;
+}
 
 h1 {
 	font-size: 70px;
@@ -31,33 +40,46 @@ nav {
 	flex-direction: column;
 }
 
-nav a {
-	color: white;
-	font-size: 18px;
-	text-decoration: none;
-	margin: 0.5em 0;
-}
-nav a:last-child {
-	margin-bottom: 0;
-}
-
 h2,
 h3,
 p {
 	color: gray;
+	margin: 1.5em 0;
 }
 
 .designed {
-	background: url('../img/the-flatiron-building.png') no-repeat center center;
+	background: url('../img/the-flatiron-building.png') no-repeat center top;
 	background-size: cover;
 }
 .designed h3 {
 	color: #fff;
+	font-size: 23px;
+	font-weight: bold;
 }
 
 footer {
-	background: #ddd;
+	background: dimgray;
+	align-items: center;
+	margin-bottom: 1em;
+	padding: 0 1em;
 }
+.copy p {
+	color: white;
+	font-size: 11px;
+}
+footer nav {
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/*border: 1px solid red;*/
+	width: 25%;
+	margin: 0 0.5em;
+}
+footer nav a {
+	color: #fff;
+	margin: 0 2px;
+}
+
 
 
 

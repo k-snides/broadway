@@ -59,25 +59,44 @@ p {
 
 footer {
 	background: dimgray;
-	align-items: center;
+	flex-direction: column;
+	align-items: flex-start;
 	margin-bottom: 1em;
-	padding: 0 1em;
+	padding: 0.2em 1em;
+}
+.copy {
+	order: 2;
 }
 .copy p {
 	color: white;
 	font-size: 11px;
+	margin: 0;
 }
 footer nav {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	/*border: 1px solid red;*/
-	width: 25%;
-	margin: 0 0.5em;
+	flex-direction: row;
+	order: 1;
 }
 footer nav a {
 	color: #fff;
 	margin: 0 2px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+	footer {
+		flex-direction: row;
+	}
+	footer nav {
+		order: 2;
+	}
+	.copy {
+		order: 1;
+		align-self: center;
+	}
 }
 
 

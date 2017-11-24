@@ -7,3 +7,5 @@ In this project, you'll create a website, Broadway, an image of which is provide
 #### Website to match this mockup:
 
 <img src="https://github.com/k-snides/broadway/blob/gh-pages/img/broadway_redline.jpg" height="500" width="400" alt="broadway mockup file" />
+
+Note: There was no request to make this web page responsive so it is best viewed on a desktop.
